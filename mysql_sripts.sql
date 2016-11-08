@@ -1,4 +1,5 @@
-CREATE TABLE user ( id int(8) NOT NULL AUTO_INCREMENT, name varchar(25), age int, isAdmin bit, createdDate timestamp DEFAULT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+USE test;
+CREATE TABLE user ( id int(8) NOT NULL AUTO_INCREMENT, name varchar(25), age int, isAdmin bit, createdDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 insert into user (name, age, isAdmin) values ('Barak.O', 44, 0);
 insert into user (name, age, isAdmin) values ('Keane', 30, 0);
 insert into user (name, age, isAdmin) values ('Tom', 45, 0);
