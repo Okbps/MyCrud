@@ -1,0 +1,17 @@
+CREATE TABLE user ( id int(8) NOT NULL AUTO_INCREMENT, name varchar(25), age int, isAdmin bit, createdDate timestamp DEFAULT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+insert into user (name, age, isAdmin) values ('Barak.O', 44, 0);
+insert into user (name, age, isAdmin) values ('Keane', 30, 0);
+insert into user (name, age, isAdmin) values ('Tom', 45, 0);
+insert into user (name, age, isAdmin) values ('Michael', 90, 0);
+insert into user (name, age, isAdmin) values ('Johny', 4, 0);
+insert into user (name, age, isAdmin) values ('Alice', 33, 0);
+insert into user (name, age, isAdmin) values ('Chris', 22, 0);
+insert into user (name, age, isAdmin) values ('Olga', 12, 0);
+insert into user (name, age, isAdmin) values ('Vera', 14, 0);
+insert into user (name, age, isAdmin) values ('Nadja', 16, 0);
+insert into user (name, age, isAdmin) values ('Andrey', 28, 0);
+insert into user (name, age, isAdmin) values ('Martin', 29, 0);
+insert into user (name, age, isAdmin) values ('Robert', 50, 0);
+insert into user (name, age, isAdmin) values ('Anton', 39, 0);
+insert into user (name, age, isAdmin) values ('Zina', 26, 0);
+insert into user (name, age, isAdmin) values ('Oleg', 27, 0);
